@@ -1,0 +1,23 @@
+{
+  "name": "legend",
+  "version": "1.0.0",
+  "description": "gamified timmy",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timmy Crawford",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+  	"legend": "index.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "node-github": "0.0.3",
+    "runkeeper-js": "^1.0.0",
+    "yargs": "3.29.0",
+    "wpcom": "4.5.1"
+  }
+}
